@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(90deg, rgba(245, 176, 65), rgba(244, 208, 63, 0.57), rgb(245, 176, 65));
+}
+.nome {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-style: italic;
+    color: linear-gradient(rgba(150, 150, 150, 0.5), rgba(180,180,180 0.5), rgb(220,220,220));
+    font-size: 70px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1px;
+    border: 5px 5px 5px;
+
+    letter-spacing: 10px;
+}
+.foto {
+    float: right;
+    display: flex;
+    align-items: left;
+    width: 450px;
+}
+.text {
+    background: rgba(0,0,0, 0.03);
+    padding: 15px; 
+    height: 500px;
+    width: 650px;
+    border-radius: 1em;
+    box-shadow: 0px 1px 3px;
+
+    float: left;
+    display: grid;
+    align-items: justify;
+
+    font-size: smaller;
+}
+.stats {
+    float: left;
+    letter-spacing: 0px;
+    font-size:medium;
+    font-weight: 100;
+}
+  
+  @keyframes gira {
+      0% { transform: rotate(-45deg); }
+      50% { transform: rotate(45deg); }
+      100% { transform: rotate(-45deg); }
+  }
+
+.type {
+    font-family: 'Pokemon Solid', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 90px;
+}

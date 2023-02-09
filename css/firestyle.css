@@ -1,0 +1,66 @@
+body {
+    background-image:url(https://pm1.narvii.com/7115/ed037afd6a9c1c8c93e4bf8048e34603fe02ed11r1-1024-671v2_hq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.644);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 20px;
+    border: 1px solid rgba(19, 19, 19, 0.18);
+    padding-bottom: 6.5em;
+  }
+html {
+    justify-content: space-between;
+}
+.nome {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: linear-gradient(rgba(238, 238, 238, 0.5), rgba(180,180,180 0.5), rgb(220,220,220));
+    font-size: 60px;
+
+    display: flex;
+    justify-content: center;
+
+    color: #000;
+     -webkit-text-stroke: 1px #FFF;
+      text-shadow: 1px #FFF;
+
+    letter-spacing: 10px;
+}
+.nome1 {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #000;
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1px;
+    border: 5px 5px 5px;
+
+    color: #000;
+     -webkit-text-stroke: 1px #FFF;
+      text-shadow: 1px #FFF;
+
+    letter-spacing: 7px;
+}
+.type {
+    letter-spacing: 5px;
+    font-size: small;
+    font-family: 'Pokemon Solid', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: inherit;
+
+    color: #000;
+     -webkit-text-stroke: 1px #FFF;
+      text-shadow: 1px #FFF;
+}
+.type1:hover {
+    color:#DC143C;
+}
+.type2:hover {
+    color:#DC143C;
+}
+.type3:hover {
+    color:#DC143C;
+}
